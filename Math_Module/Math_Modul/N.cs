@@ -16,7 +16,8 @@ namespace Math_Module
 
         public N(List<string> s) // Александр Рассохин 9370
         {
-
+            for (int i=0; i < s.Count;i++)
+                znach.Add(Convert.ToUInt32(s[i]));
         }
 
         #endregion
